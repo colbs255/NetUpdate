@@ -71,3 +71,5 @@ class NetUpdate:
 
 #TODO: need a timeout functionality so i dont have a ton of threads
 #TODO: need to make sure the portnumber is not being used again before i restart
+#TODO: i think the connection objects need to be closed also since they are socket objects
+#TODO: user callback may thrown an exception, need to handle
